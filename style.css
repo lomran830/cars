@@ -1,0 +1,787 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+
+    background-color: #f7f7f7;
+    height: 3000px
+}
+/*--==================Logo===============*/
+.navbar-inverse{
+background-color: #fff !important;
+border-color: transparent !important;
+padding: 30px 18px 0 59px;
+    height: 106px;
+    z-index: 20000;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);
+}
+.navbar-inverse .navbar-nav>.active>a{
+    background-color: transparent !important;
+}
+.navbar-inverse .navbar-toggle .icon-bar{
+        background-color: #000 !important;
+
+}
+.navbar-header button.navbar-toggle span.ba{
+        width: 32px;
+}
+.navbar-inverse .navbar-toggle:hover
+{
+ background-color: #008C95 !important;
+ border: 1px solid #fff 
+    
+}
+.navbar-inverse .navbar-toggle:hover  .icon-bar{
+    background-color: #fff !important;
+
+}
+ div.logo{
+    width: 280px;
+    height: 40.58px;
+    float: left;
+}
+ div.logo img[alt="logo"]{
+	    width: 100%;
+    	height: 100%;
+}
+.navbar .collapse ul.nav{
+	        height: 108px;
+    	position: relative;
+    	top: -35px;
+        padding-right: 95px; 
+}
+.navbar .collapse ul li{
+    cursor: pointer;
+    height: 100%;
+    margin: 3px;
+    line-height: 129px !important;
+}
+.navbar .collapse ul li.log button{
+	background: #008C95;
+    padding: 13px;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color .15s;
+    cursor: pointer;
+    outline: 0;
+
+}
+.navbar .collapse ul li.active{
+	 background: #008C95 !important;
+	 cursor: pointer;
+}
+.navbar .collapse ul li:nth-of-type(2):hover,
+.navbar .collapse ul li:nth-of-type(3):hover,
+.navbar .collapse ul li:nth-of-type(4):hover,
+.navbar .collapse ul li:nth-of-type(5):hover{
+		 background: #008C95;
+}
+.navbar .collapse ul li:nth-of-type(2):hover a,
+.navbar .collapse ul li:nth-of-type(3):hover a,
+.navbar .collapse ul li:nth-of-type(4):hover a,
+.navbar .collapse ul li:nth-of-type(5):hover a{
+		 color: #fff
+}
+.navbar .collapse ul li a{
+text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #000;
+    line-height: 110px;
+}
+.navbar .collapse ul li a sup{
+	background: rgba(0, 0, 0, 0.37);
+    padding: 2px;
+    border-radius: 5px;
+    color: #fff;
+}
+.navbar .collapse ul li.active a{
+	color: #fff
+}
+/*================== Background ===============*/
+.background{
+    background-image: url(images/primary-banner-v10.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 105px;
+        padding: 40px 0 40px 0;
+}
+.background .overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.4);
+    position: absolute;
+    top: 0
+}
+.background .top{
+    padding-top: 42px;
+        padding-bottom: 40px;
+}
+.background .left{
+        /*width: fit-content;*/
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+}
+.background .form input[type="checkbox"]{
+    display: none;
+}
+.background .form input[type="checkbox"]+label{
+    color: #4d4d4d;
+    font-size: 12px;
+}
+.background .form input[type="checkbox"]+label:before {
+    font-family: 'Font Awesome 5 free';
+    content: "\f0c8";
+    color: #555;
+    font-size: 26px;
+    margin-right: 15px;
+    position: relative;
+    top: 4px;
+}
+.background .form input[type="checkbox"]:checked + label:before{
+        font-family: 'Font Awesome 5 free';
+        content: "\f14a";
+        color: #008C95;
+        font-size: 26px;
+        margin-right: 15px;
+        position: relative;
+        top: 4px;
+}
+div.background .left .select1,
+div.background div.left select.select2,
+div.background div.left select.select3,
+div.background div.left select.select4,
+div.background div.left select.select5,
+div.background div.left select.select6 {
+    border: 1px solid #dfd7d7;
+    color: #555;
+    -webkit-appearance: none;
+        font-weight: 700;
+    font-family: sans-serif;
+    cursor: pointer;
+    outline: 0;
+    
+}
+div.background div.left select.select1,
+div.background div.left select.select3,
+div.background div.left select.select4,
+div.background div.left select.select5,
+div.background div.left select.select6{
+    position: relative;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+}
+div.background div.left select{
+    position: relative;
+}
+svg.svg-inline--fa.fa-chevron-circle-down.fa-w-16.chev1,
+svg.svg-inline--fa.fa-chevron-circle-down.fa-w-16.chev,
+svg.svg-inline--fa.fa-chevron-circle-down.fa-w-16.chev2,
+svg.svg-inline--fa.fa-chevron-circle-down.fa-w-16.chev3,
+svg.svg-inline--fa.fa-chevron-circle-down.fa-w-16.chev4,
+svg.svg-inline--fa.fa-chevron-circle-down.fa-w-16.chev5{
+
+    position: absolute;
+    top: 9px;
+    right: 30px;
+    color: #008C95;
+    z-index: 2000;
+}
+svg.svg-inline--fa.fa-chevron-circle-down.fa-w-16.chev,
+svg.svg-inline--fa.fa-chevron-circle-down.fa-w-16.chev3,
+svg.svg-inline--fa.fa-chevron-circle-down.fa-w-16.chev5{
+            right: 26px;
+}
+.sele{
+    margin:4px;
+}
+div.background div.left button{
+    font-family: sans-serif;
+    color: #fff;
+    border: 2px solid #008C95;
+    width: 100%;
+    background-color: #008C95;
+    outline: 0;
+    font-weight: 700;
+    padding: 13px 0px 13px 0px;
+    position: relative;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color .15s,color .15s
+}
+div.background div.left button:hover{
+    background-color: #fff;
+    color: #008C95
+}
+.bt{
+        margin-top: 18px;
+            margin-bottom: 17px;
+}
+div.background div.left a{
+    color: #008C95;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.form{
+        text-align: left;
+}
+div.background h2{
+        color: #fff;
+    font-weight: bold;
+    margin-bottom: 32px;
+    text-align: left;
+}
+p{
+        color: #fff;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+}
+/*======================== Choose ===========================*/
+.choose{
+	text-align: center;
+	width: 100%;
+        padding-bottom: 78px;
+	background-color: #fff;
+}
+.choose h2{
+	font-family: sans-serif;
+	padding-top: 56px;
+	position: relative;
+
+}
+h2.why {
+    margin-top: 182px;
+    font-size: 26px;
+    font-weight: bold;
+}
+h2.head {
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: -35px;
+}
+.choose .border,.choose .bord  {
+    height: 1px;
+    border: 1px solid #008C95;
+    background-color: #008C95;
+margin-top: 261px;
+}
+.choose .bord {
+    left: 909px;
+}
+.choose header div:nth-of-type(1),
+.choose header div:nth-of-type(2),
+.choose header div:nth-of-type(3){
+    width: 33.3%;
+    float: left;
+}
+.choose div p{
+	width: 66%;
+    text-align: left;
+    margin: auto;
+    font-family: sans-serif;
+    color: #797e82;
+    line-height: 2;
+}
+.choose header div h2{
+    position: relative;
+    left: -71px;
+    font-size: 20px;
+}
+.choose header div:nth-of-type(1) h2{
+	    position: relative;
+    	left: 3px;
+}
+.choose button{
+    width: 100%;
+    padding: 10px 0 10px 0px;
+    cursor: pointer;
+    font-weight: 700;
+    border: 1px solid #008C95;
+        border-radius: 4px;
+        transition: background-color .6s,color .6s
+}
+.choose button:nth-of-type(2),
+.choose button:nth-of-type(1):hover{
+	background-color: #008C95;
+	color: #fff;
+}
+.choose button:nth-of-type(1),
+.choose button:nth-of-type(2):hover{
+	background-color: #fff;
+	color: #008C95
+}
+.left_info {
+    margin-bottom: 55px;
+}
+.left_info.line {
+    border-right: 1px solid #ddd;
+}
+/*---------------------------------- Popular in country.eg -------------------------------*/
+.country .border,.country .bord  {
+    height: 1px;
+    border: 1px solid #008C95;
+    background-color: #008C95;
+margin-top: 118px;
+}
+.country{
+    padding-bottom: 124px
+}
+.country .bord {
+    left: 909px;
+}
+.country h2{
+    margin-top: 101px;
+}
+.country .group{
+    background-color: #fff;
+    padding-bottom: 20px;
+        border-radius: 2px;
+        margin: 13px;
+        cursor: pointer;
+}
+a.left.carousel-control, a.right.carousel-control{
+background:none !important;
+}
+
+.country .group img[alt="car"]{
+    width: 100%;
+    height: 170px;
+}
+.country .group h3{
+    font-weight: bold;
+    text-align: left;
+    font-size: 18px;
+    padding-right: 12px;
+    color: #008C95;
+    padding-left: 10px;
+}
+.country .group p{
+    color: #777;
+    font-weight: 200;
+    padding-left: 11px;
+    font-size: 18px;
+}
+.country .group p.pargraph{
+        background: #008C95;
+    width: fit-content;
+    margin: auto;
+    padding: 8px;
+    text-align: left;
+    font-size: 15px;
+    color: #fff;
+}
+.country .group p.pargraph span{
+    margin-left: 37px
+}
+div#myCarousel{
+    margin-top: 74px
+}
+.carousel-indicators{
+        bottom: -78px;
+        display: none;
+}
+.owl-theme .owl-dots .owl-dot{
+    outline: 0;
+}
+.owl-theme .owl-dots .owl-dot:hover span{
+    border: 1px solid #008C95;
+    background:transparent !important;
+}
+.carousel-indicators .active,.owl-theme .owl-dots .owl-dot.active span,.owl-theme .owl-dots .owl-dot.active:hover span{
+    width: 49px !important;
+    background-color: #008C95 !important;
+    border: 1px solid #fff
+}
+.carousel-indicators li,.owl-theme .owl-dots .owl-dot span{
+    border: 1px solid #008C95;
+    background:transparent !important;
+}
+
+span.glyphicon.glyphicon-chevron-left, span.glyphicon.glyphicon-chevron-right{
+        background: rgba(0,0,0,.4);
+}
+
+/*============================= Browse by body type ====================================*/
+.cars{
+padding-bottom: 126px;
+}
+.cars h2{
+	text-align: center;
+	margin: auto;
+	font-family: sans-serif;
+	position: relative;
+    top: 46px;
+}
+.cars .border,
+.cars .bord{
+    height: 1px;
+    border: 1px solid #008C95;
+    background-color: #008C95;
+    margin-top: 66px;
+}
+.cars .bord{
+		left: 909px;
+}
+
+.part1 {
+position: relative;
+    top: 97px;
+
+}
+
+.part1 svg.svg-inline--fa.fa-car-side.fa-w-20,
+.part1 svg.svg-inline--fa.fa-truck-moving.fa-w-20,
+.part1 svg.svg-inline--fa.fa-car-alt.fa-w-15,
+.part1 svg.svg-inline--fa.fa-truck-pickup.fa-w-20{
+	    font-size: 52px;
+    	color: rgba(0, 0, 0, 0.38);
+    	cursor: pointer;
+    	transition: color 1s
+}
+.part1 svg.svg-inline--fa.fa-car-side.fa-w-20:hover,
+.part1 svg.svg-inline--fa.fa-truck-moving.fa-w-20:hover,
+.part1 svg.svg-inline--fa.fa-car-alt.fa-w-15:hover,
+.part1 svg.svg-inline--fa.fa-truck-pickup.fa-w-20:hover{
+	color: #4d4d4d;
+}
+.part1 p {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.56);
+    cursor: pointer;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 41px;
+}
+.part1 svg.svg-inline--fa.fa-car-side.fa-w-20:hover + p,
+.part1 svg.svg-inline--fa.fa-truck-moving.fa-w-20:hover + p,
+.part1 svg.svg-inline--fa.fa-car-alt.fa-w-15:hover + p,
+.part1 svg.svg-inline--fa.fa-truck-pickup.fa-w-20:hover + p{
+	color: #008C95
+}
+/*======================== Most popular car makes =======================*/
+
+.popular {
+    width: 100%;
+    background: #fff;
+    padding-bottom: 55px;
+}
+.popular h2{
+	text-align: center;
+	margin:auto;
+	font-family: sans-serif;
+	    margin-top: 37px;
+}
+.popular .border,
+.popular .bord{
+    height: 1px;
+    border: 1px solid #008C95;
+    background-color: #008C95;
+    margin-top: 61px;
+}
+.popular .images {
+        padding: 18px;
+        margin-top: 62px;
+}
+.popular .images:hover{
+        box-shadow: 0px 0px 15px rgba(85, 90, 96, 0.25);
+}
+/*================================ News articles =============================*/
+.articles{
+    padding-bottom: 42px;
+    width: 100%;
+    background-color: #f7f7f7;
+    padding-top: 42px;
+}
+.articles > h2{
+text-align: center;
+margin:auto;
+font-family: sans-serif;
+
+}
+.articles .left{
+    margin-left: -64px;
+    margin-top: 32px;
+}
+.articles .left img[alt="cars"]{
+    width: 100%;
+    height: 100%;
+	
+
+}
+.articles .right{
+    background: #008C95;
+    padding: 25px;
+    margin-top: 33px;
+    margin-right: 34px;
+    padding-bottom: 46px
+}
+.articles .right h2 {
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    padding-bottom: 48px;
+    color: #fff
+}
+
+.articles .right button {
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 10px 83px 10px 51px;
+    text-align: center;
+    color: #fff
+}
+.articles .right button:hover{
+background-color: #fff;
+color: #008C95
+}
+/*================================ Most popular auction channels =============================*/
+.channels{
+    width: 100%;
+    background-color: #fff;
+    padding-bottom: 71px;
+}
+.channels h2 {
+    font-family: sans-serif;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 62px;
+    color: #212121;
+    font-size: 24px;
+}
+.channels .border,
+.channels .bord{
+    height: 1px;
+    border: 1px solid #008C95;
+    background-color: #008C95;
+    margin-top: 78px;
+}
+.channels .bord{
+left: 953px;
+}
+
+.channels .part1 {
+float: left;
+position: relative;
+    left: -144px;
+}
+.channels .part1,.channels .part2{
+	display: block;
+}
+.channels .group_part1{
+    padding: 0 137px 0 0px;
+    background: #fff;
+    margin: auto;
+    cursor: pointer;
+    transition: box-shadow .15s;
+    margin-top: 75px;
+    position: relative;
+}
+.channels .group_part1:hover{
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+}
+.channels .part2 {
+float: left;
+    margin-top: 264px;
+    margin-left: -73%;
+}
+.channels .group_part1 img{
+    width: 70px;
+    height: 70px;
+}
+.channels span {
+    font-family: sans-serif;
+    position: absolute;
+    color: #4d4d4d;
+    margin-top: 28px;
+    margin-left: 58px;
+    font-size: 12px;
+    font-weight: bold;
+}
+/*=============================== Download Your App ========================*/
+.Download{
+	    width: 100%;
+	    height: 400px;
+	    background-color: #f7f7f7;
+}
+.Download .left{
+/*		float: left;
+	    position: relative;
+	    top: 77px;
+	    left: 162px;*/
+}
+.Download .right{
+    background: #008C95;
+    width: 100%;
+    padding-right: 32px;
+    height: 100%;
+}
+.Download .right h2{
+    padding: 31px 0 32px 15px;
+    color: #fff;
+    font-family: sans-serif;
+    margin: auto;
+    text-align: left;
+     font-size: 27px; 
+    font-weight: bold;
+}
+
+.Download .right p{
+    color: #fff;
+    font-family: sans-serif;
+    padding-left: 16px;
+     font-size: 16px;
+}
+
+.Download .right button{
+    width: 216px;
+    padding: 10px 0 10px 0;
+    margin-left: 20px;
+    margin-top: 24px;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color .15s,color .15s;
+    border-radius: 3px;
+        margin-bottom: 12px;
+}
+.Download .right button:hover{
+	background-color: #ffffff;
+	color: #008C95
+}
+
+/*============================== Footer ==================================*/
+.footer{
+	width: 100%;
+    background-color: #262626;
+    color: #fff;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+}
+.footer h3{
+	cursor: default;
+}
+.footer .left,{
+	    display: inline-block;
+    padding: 67px 0 0 157px;
+}
+.footer ul{
+	margin-top: 14px
+}
+.footer ul li{
+    line-height: 2;
+    cursor: pointer;
+    font-size: 16px;
+}
+.footer ul li:hover{
+	text-decoration: underline;
+	text-decoration-color: #ffa801
+	text-decoration-color:#008C95
+}
+.footer div:nth-of-type(3){
+	position: relative;
+    top: -44px;
+}
+
+
+.footer .left {
+    padding-top: 48px;
+}
+.footer .line {
+        margin-top: 43px;
+}
+
+.End{
+	width: 100%;
+	color: #fff;
+	padding:10px 0 10px 0;
+	text-align: center;
+	font-family: sans-serif;
+	background-color:#3D3D3D
+}
+.End span{
+	font-family: sans-serif;
+}
+.in{
+    background-color: rgba(0,0,0,.4);
+    width: 100%;
+    z-index: 40000;
+    height: 100vh;
+    position: absolute;
+    display: none;
+}
+.in .log{
+    z-index: 30073;
+    margin: auto;
+    background: #fff;
+    padding: 10px 41px 10px 58px;
+    text-align: left;
+    width: max-content;
+    position: relative;
+    margin-top: 90px;
+    padding-top: 45px;
+    padding-bottom: 41px
+}
+.in .log input{
+    width: 389px;
+}
+.in .log button{
+        width: 100%;
+    color: #fff;
+    background-color: #008C95;
+    margin-top: 21px;
+}
+.in .log label.use,
+.in .log label.pass{
+        margin-top: 22px;
+}
+.in .log label.use{
+    margin-top: 56px
+}
+.in .log input[type="checkbox"]{
+    display: none;
+}
+.in .log input[type="checkbox"]+label:before{
+        font-family: 'Font Awesome 5 free';
+        content: "\f0c8";
+            font-size: 25px;
+                color: #008C95;
+                margin-right: 13px;
+                cursor: pointer;
+}
+.in .log input[type="checkbox"]:checked + label:before{
+     font-family: 'Font Awesome 5 free';
+        content: "\f14a";
+                    font-size: 25px;
+                color: #008C95;
+                margin-right: 13px;
+                cursor: pointer;
+}
+.in .Login{
+        background: #f7f7f7;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+svg.svg-inline--fa.fa-times.fa-w-11{
+    color: #777;
+    font-family: 'Font Awesome 5 Free';
+    content: "\f00d";
+    font-size: 17px;
+    float: right;
+    margin-right: 22px;
+    cursor: pointer;
+}
+.in .remember{
+        margin-top: 33px;
+}

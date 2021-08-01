@@ -1,0 +1,161 @@
+@media(min-width: 768px){
+	@media(max-width: 790px){
+				div.logo {
+		    width: 122px;
+		    margin-left: -59px;
+		}
+		div#myNavbar{
+			width: 747px !important
+		}
+		.navbar .collapse ul.nav{
+			width: 684px
+		}
+		.navbar .collapse ul li{
+			font-size: 13px
+		}
+
+	}
+}
+
+@media(min-width: 790px){
+	@media(max-width: 800px){
+				div.logo {
+		    width: 122px;
+		    margin-left: -59px;
+		}
+		div#myNavbar{
+			width: 766px !important
+		}
+		.navbar .collapse ul.nav{
+			width: 684px
+		}
+		.navbar .collapse ul li{
+			font-size: 13px
+		}
+
+	}
+}
+@media(min-width: 800px){
+	@media(max-width: 901px){
+				div.logo {
+		    width: 122px;
+		    margin-left: -59px;
+		}
+		div#myNavbar{
+			width: 774px !important
+		}
+		.navbar .collapse ul.nav{
+			width: 701px
+		}
+		.navbar .collapse ul li{
+			font-size: 13px
+		}
+
+	}
+}
+@media(min-width: 901px){
+	@media(max-width: 1000px){
+				div.logo {
+		    width: 122px;
+		    margin-left: -59px;
+		}
+		div#myNavbar{
+			width: 870px !important
+		}
+		.navbar .collapse ul.nav{
+			width: 684px
+		}
+		.navbar .collapse ul li{
+			font-size: 13px
+		}
+
+	}
+}
+@media(min-width: 1000px){
+	@media(max-width: 1043px){
+				div.logo {
+		    width: 122px;
+		    margin-left: -59px;
+		}
+		div#myNavbar{
+			width: 945px !important
+		}
+		.navbar .collapse ul.nav{
+			width: 684px
+		}
+		.navbar .collapse ul li{
+			font-size: 13px
+		}
+
+	}
+}
+@media(min-width: 1123px){
+	@media(max-width: 1138px){
+				div.logo {
+		    width: 122px;
+		    margin-left: -59px;
+		}
+		div#myNavbar{
+			width: 945px !important
+		}
+		.navbar .collapse ul.nav{
+			width: 720px
+		}
+		.navbar .collapse ul li{
+			font-size: 13px
+		}
+
+	}
+}
+@media(max-width: 1122px){
+	.navbar .collapse ul.nav{
+		padding-right: 0px; 
+	}
+}
+@media(min-width:992px){
+@media(max-width: 1200px){
+	.articles .right{
+		    padding-bottom: 7px;
+	}
+	.articles .right button{
+		    padding: 10px 54px 10px 51px;
+	}
+}
+}
+@media(min-width: 768px){
+@media(max-width: 992px){
+	.articles .right button{
+		    padding: 10px 23px 10px 15px;
+	}
+	.articles .right h2{
+		    font-size: 12px;
+		        padding-bottom: 28px;
+	}
+	.articles .right{
+		    padding-bottom: 8px;
+	}
+}
+}
+@media(max-width: 768px){
+	.articles .right{
+		margin-right: 0
+	}
+	.articles .left{
+		margin-left: 0
+	}
+}
+@media(min-width:992px ){
+@media(max-width: 1200px){
+	.Download .right h2{
+		font-size: 20px;
+		padding: 31px 0 24px 15px;
+	}
+	.Download .right button {
+       width: auto;
+    padding: 10px 26px 10px 26px;
+    margin-left: 20px;
+        margin-top: 0;
+    margin-bottom: 12px;
+}
+}
+}
